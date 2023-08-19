@@ -1,6 +1,6 @@
 // MONGO_URI = "mongodb+srv://kezdetphia:Justeminem8.zmz8n7z.mongodb.net/?retryWrites=true&w=majority"
 import express from 'express';
-import mongoose from 'mongoose';
+// import mongoose from 'mongoose';
 import cors from 'cors';
 
 const app = express();
@@ -14,7 +14,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
-    name: 'Mark',
+    name: 'Mar',
     age: 'immortal'
   });
 });
