@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const BASE_URL = "http://localhost:3333";
-  // const BASE_URL = "laptopvercel-2mipl04um-kezdetphia.vercel.app";
+  // const BASE_URL = "http://localhost:3333";
+  const BASE_URL = "laptopvercel-back-1xl6y8bdg-kezdetphia.vercel.app";
 
   const [person, setPerson] = useState({});
 
