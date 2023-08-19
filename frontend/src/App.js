@@ -26,14 +26,19 @@ function App() {
 
   useEffect(()=>{
     const Job = async()=>{
-      try{
-        // const response = await fetch(`${BASE_URLlocal}/job`)
-        const response = await fetch('/job')
-        const data = await response.json()
-        setJob(data)
-      }catch(error){
-        console.log({jobmessage: error.message})
+      try {
+        const response = await fetch(`${BASE_URL}/job`);
+        const responseBody = await response.text();
+        console.log('Raw Response Body:', responseBody);
+      
+        const data = await response.json();
+        console.log('Parsed JSON Data:', data);
+      
+        setJob(data);
+      } catch (error) {
+        console.log({ jobmessage: error.message });
       }
+      
     }
     Job()
   })
