@@ -22,7 +22,7 @@ function App() {
     getPerson();
   }, []);
 
-  const [job, setJob] = useState('')
+  const [job, setJob] = useState({})
 
   useEffect(()=>{
     const Job = async()=>{
