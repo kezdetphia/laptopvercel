@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   // const BASE_URLlocal = "http://localhost:3333";
-  const BASE_URL = "https://laptopvercel-back-omy99dykf-kezdetphia.vercel.app/";
+  const BASE_URL = "https://laptopvercel-back-omy99dykf-kezdetphia.vercel.app";
 
   const [person, setPerson] = useState({});
 
@@ -28,7 +28,7 @@ function App() {
     const Job = async()=>{
       try{
         // const response = await fetch(`${BASE_URLlocal}/job`)
-        const response = await fetch(`${BASE_URL}/job`)
+        const response = await fetch('/job')
         const data = await response.json()
         setJob(data)
       }catch(error){
