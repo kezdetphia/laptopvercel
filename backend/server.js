@@ -7,12 +7,10 @@ const app = express();
 const PORT = 3333;
 
 
-// app.use(express.json());
+app.use(express.json());
 app.use(cors());
 
-// app.get('/', (req, res)=>{
-//   res.send({message: 'helloka'})
-// })
+
 
 app.get("/", (req, res) => {
   res.json({
