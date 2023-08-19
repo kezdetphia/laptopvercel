@@ -21,6 +21,13 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/job", (req, res) => {
+  res.json({
+    job: 'software engineer',
+    salary: '100000USD/Year'
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`app listening ${PORT}`);
 });
