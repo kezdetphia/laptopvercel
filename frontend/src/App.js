@@ -27,6 +27,7 @@ function App() {
         <h1>Person Information</h1>
         <p>Name: {person.name}</p>
         <p>Age: {person.age}</p>
+        <p>i deployed the ting haha</p>
       </div>
     </div>
   );
