@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   // const BASE_URL = "http://localhost:3333";
-  const BASE_URL = "laptopvercel-back-1xl6y8bdg-kezdetphia.vercel.app";
+  const BASE_URL = "https://laptopvercel-back-omy99dykf-kezdetphia.vercel.app/";
 
   const [person, setPerson] = useState({});
 
