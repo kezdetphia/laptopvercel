@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 const Person = () => {
   // const BASE_URLlocal = "http://localhost:3333";
-  const BASE_URL = "https://laptopvercel-back-omy99dykf-kezdetphia.vercel.app";
+  const BASE_URL = "https://laptopvercel-back-10547fydg-kezdetphia.vercel.app/";
 
   const [person, setPerson] = useState({});
 
